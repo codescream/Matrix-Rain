@@ -272,7 +272,7 @@ function ChangeColor(color)
     }
   }
   handle.style.backgroundColor = color;
-} // ChangeColor()
+} // ChangeColor() change the rain color
 
 function ChangeSpeed(speed)
 {
