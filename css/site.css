@@ -1,0 +1,85 @@
+body
+{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+}
+main
+{
+  width: 100%;
+  height: 935px;
+  background: #000;
+}
+  .cols
+  {
+    float: left;
+    width: calc(100%/85);
+    height: 100%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+  .cols span
+  {
+    display: inline-block;
+  }
+  #panel
+  {
+    position: absolute;
+    width: 30%;
+    height: 150px;
+    top: -150px;
+    margin-left: 35%;
+    text-align: center;
+    background: green;
+    border-radius: 0 0 5px 5px;
+    z-index: 10;
+    opacity: 0.9;
+  }
+    p
+    {
+      padding: 0;
+      margin: 0;
+      margin: 1% 0;
+      font-weight: 1000;
+    }
+    .colors
+    {
+      display: inline-table;
+      width: 20%;
+      height: 50px;
+      margin: 0 5%;
+      border-radius: 10%;
+      cursor: pointer;
+    }
+    #red
+    {
+      background: red;
+    }
+    #blue
+    {
+      background: blue;
+    }
+    #limegreen
+    {
+      background: limegreen;
+    }
+    #speedSlider
+    {
+      width: 80%;
+      height: 10px;
+    }
+  #handle
+  {
+    position: absolute;
+    width: 10%;
+    height: 20px;
+    top: 0px;
+    margin-left: 45%;
+    background: limegreen;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0.7;
+  }
